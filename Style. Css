@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(to right, #e6f4ea, #f4f9f4);
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Name Styling */
+header h1 {
+  margin: 0;
+  font-size: 42px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* Subtitle */
+header p {
+  margin-top: 10px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* About Section */
+.about {
+  max-width: 800px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.about h2 {
+  color: #2e8b57;
+  border-bottom: 2px solid #2e8b57;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Button Styling */
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  background: #2e8b57;
+  color: white;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #246b45;
+  transform: scale(1.05);
+}
+
+/* Message */
+#message {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #2e8b57;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #2e8b57;
+  color: white;
+  margin-top: 50px;
+}
