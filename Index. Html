@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kajal Sahu | Biotechnology Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Kajal Sahu</h1>
+    <p>Biotechnology Undergraduate | MRIIRS</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I am Kajal Sahu, a Biotechnology undergraduate at Manav Rachna International Institute of Research and Studies (MRIIRS), 
+      with a keen interest in molecular biology, microbiology, and biotechnological innovations.
+      I am driven to explore how biological systems can be leveraged to address challenges in healthcare, 
+      environmental sustainability, and industrial processes.
+    </p>
+    <p>
+      I have developed foundational skills in laboratory techniques, analytical thinking, and research-based problem solving, 
+      and I am eager to contribute to advancements in the field of biotechnology.
+    </p>
+    <button onclick="showMessage()">Click to Know My Goal</button>
+    <p id="message"></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Kajal Sahu | Biotechnology Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
