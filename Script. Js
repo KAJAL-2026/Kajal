@@ -1,0 +1,34 @@
+// Function to show goal message
+function showMessage() {
+  document.getElementById("message").innerHTML =
+    "My goal is to contribute to innovative biotechnology solutions in healthcare and environmental sustainability.";
+}
+
+// Welcome alert when page loads
+window.onload = function () {
+  alert("Welcome to Kajal Sahu's Biotechnology Portfolio!");
+};
+
+// Change header color on click
+document.querySelector("header").addEventListener("click", function () {
+  this.style.background = "#246b45";
+});
+
+// Dynamic greeting based on time
+function greeting() {
+  let time = new Date().getHours();
+  let greetText = "";
+
+  if (time < 12) {
+    greetText = "Good Morning!";
+  } else if (time < 18) {
+    greetText = "Good Afternoon!";
+  } else {
+    greetText = "Good Evening!";
+  }
+
+  document.getElementById("message").innerHTML = greetText + " Welcome to my portfolio.";
+}
+
+// Run greeting after 2 seconds
+setTimeout(greeting, 2000);
